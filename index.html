@@ -1,0 +1,41 @@
+<!DOCTYPEhtml>
+<html>
+<html lang="en" ng-app>
+ <head>
+  	<title>Exercise 3B</title>
+  	<link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="mainDiv">
+        
+        <div id="nameDiv">
+            <label id="name">Name:</label>
+            <input class="addItemInput" id="innerDiv" type="text" name="name">
+        </div>  
+        
+        <div id="typeDiv">
+            <label for="Type">Type:</label>
+            <input type="radio" name="foodtype"  value="Fruit">Fruit</input>
+            <input type="radio" name="foodtype" value="Vegetable">Vegetable</input>
+        </div>
+           
+        <div id="addDiv">
+            <button class="addItemButton">Add</button>
+        </div>
+
+    </div>
+    
+    <h4>Fruits</h4>
+    <ol class="fruits"> </ol>
+    
+    <h4>Vegetables</h4>
+    <ol class="Vegetable"> </ol>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

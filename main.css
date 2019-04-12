@@ -1,0 +1,21 @@
+#mainDiv {
+    border: grey solid 1px;
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    padding: 50px;
+
+}
+
+#typeDiv {
+    padding-top: 20px;
+    
+}
+
+#addDiv {
+    padding-top: 20px;
+}
+
+
+
+
